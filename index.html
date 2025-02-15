@@ -6,6 +6,10 @@
     <title>NGO Information and Google Form</title>
     <link rel="stylesheet" href="style.css">
     <style>
+        @media screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
         /* Container for the grid */
         .image-gallery {
             display: grid;
@@ -28,6 +32,11 @@
         .image-gallery img:hover {
             transform: scale(1.05); /* Slightly enlarge the image on hover */
         }
+        .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
     </style>
 </head>
 <body>
